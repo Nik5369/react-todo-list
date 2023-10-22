@@ -1,0 +1,19 @@
+.myBtn {
+  background: #ffffff;
+  border: none;
+  font-family: inherit;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: lowercase;
+  font-size: 16px;
+  border-radius: 9px;
+  transition: all 0.3s ease;
+}
+
+.myBtn:hover {
+  filter: brightness(85%);
+}
+.myBtn:disabled {
+  filter: unset;
+}
